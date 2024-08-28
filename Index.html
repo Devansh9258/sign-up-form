@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form method="post" action="#">
+      <div class="content">
+        <h2>Sign-up Down here 👇</h2>
+
+        <div class="input-group">
+          <label for="first-name">First name</label>
+          <input
+            id="first-name"
+            type="text"
+            placeholder="Enter your first name"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="last-name">Last name</label>
+          <input
+            id="last-name"
+            type="text"
+            placeholder="Enter your last name"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="number">Mobile Number</label>
+          <input
+            id="number"
+            placeholder="9876543210"
+            type="tel"
+            pattern="[0-9]{10}"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            placeholder="example@gmail.com"
+            type="email"
+            required
+          />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

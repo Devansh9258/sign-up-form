@@ -8,50 +8,77 @@
   </head>
   <body>
     <form method="post" action="#">
-      <div class="content">
-        <h2>Sign-up Down here 👇</h2>
+      <h2>Sign-up Down here 👇</h2>
 
-        <div class="input-group">
-          <label for="first-name">First name</label>
-          <input
-            id="first-name"
-            type="text"
-            placeholder="Enter your first name"
-            required
-          />
-        </div>
-
-        <div class="input-group">
-          <label for="last-name">Last name</label>
-          <input
-            id="last-name"
-            type="text"
-            placeholder="Enter your last name"
-            required
-          />
-        </div>
-
-        <div class="input-group">
-          <label for="number">Mobile Number</label>
-          <input
-            id="number"
-            placeholder="9876543210"
-            type="tel"
-            pattern="[0-9]{10}"
-            required
-          />
-        </div>
-
-        <div class="input-group">
-          <label for="email">Email</label>
-          <input
-            id="email"
-            placeholder="example@gmail.com"
-            type="email"
-            required
-          />
-        </div>
+      <div class="input-group">
+        <label for="first-name">First name</label>
+        <input
+          id="first-name"
+          type="text"
+          placeholder="Enter your first name"
+          required
+        />
       </div>
+
+      <div class="input-group">
+        <label for="last-name">Last name</label>
+        <input
+          id="last-name"
+          type="text"
+          placeholder="Enter your last name"
+          required
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="number">Mobile Number</label>
+        <input
+          id="number"
+          type="tel"
+          placeholder="9876543210"
+          pattern="[0-9]{10}"
+          required
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="example@gmail.com"
+          required
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="confirm-password">Confirm Password</label>
+        <input
+          id="confirm-password"
+          type="password"
+          placeholder="Confirm your password"
+          required
+        />
+      </div>
+
+      <div class="checkbox">
+        <label for="terms">
+          <input id="terms" type="checkbox" required />
+          I accept the Terms of Use & Privacy Policy
+        </label>
+      </div>
+
+      <button type="submit">Sign Up</button>
     </form>
   </body>
 </html>

@@ -1,25 +1,27 @@
 body {
   width: 100%;
-  background-color: #f4f4f4;
+  background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  font-weight: bolder;
+  font-size: large;
+  color: white;
 }
 
-.content {
-  background: #b992ef;
+form {
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: left;
+  max-width: 400px;
+  width: 100%;
 }
 
 h2 {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -31,6 +33,7 @@ h2 {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .input-group input {
@@ -39,4 +42,24 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+.checkbox {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(138, 250, 138, 0.852);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(138, 250, 138, 1);
 }

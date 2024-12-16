@@ -16,39 +16,26 @@
           id="first-name"
           type="text"
           placeholder="Enter your first name"
-          required
         />
+        <p class="error-message" id="firstNameError" style="color: red"></p>
       </div>
 
       <div class="input-group">
         <label for="last-name">Last name</label>
-        <input
-          id="last-name"
-          type="text"
-          placeholder="Enter your last name"
-          required
-        />
+        <input id="last-name" type="text" placeholder="Enter your last name" />
+        <p class="error-message" id="lastNameError" style="color: red"></p>
       </div>
 
       <div class="input-group">
         <label for="number">Mobile Number</label>
-        <input
-          id="number"
-          type="tel"
-          placeholder="9876543210"
-          pattern="[0-9]{10}"
-          required
-        />
+        <input id="number" type="tel" placeholder="9876543210" />
+        <p class="error-message" id="mobileNumberError" style="color: red"></p>
       </div>
 
       <div class="input-group">
         <label for="email">Email</label>
-        <input
-          id="email"
-          type="email"
-          placeholder="example@gmail.com"
-          required
-        />
+        <input id="email" type="email" placeholder="example@gmail.com" />
+        <p class="error-message" id="emailError" style="color: red"></p>
       </div>
 
       <div class="input-group">
@@ -57,8 +44,8 @@
           id="password"
           type="password"
           placeholder="Enter your password"
-          required
         />
+        <p class="error-message" id="passwordError" style="color: red"></p>
       </div>
 
       <div class="input-group">
@@ -67,20 +54,23 @@
           id="confirm-password"
           type="password"
           placeholder="Confirm your password"
-          required
         />
+        <p
+          class="error-message"
+          id="confirmPasswordError"
+          style="color: red"
+        ></p>
       </div>
 
       <div class="checkbox">
         <label for="terms">
-          <input id="terms" type="checkbox" required />
+          <input id="terms" type="checkbox" />
           I accept the Terms of Use & Privacy Policy
         </label>
       </div>
 
-      <button type="submit">Sign Up</button>
-      <p id="errorMessage" style="color: red"></p>
+      <button type="submit" id="submitButton" disabled>Sign Up</button>
     </form>
-    <script src="script.js"></script>
+    <script src="Main.js"></script>
   </body>
 </html>
